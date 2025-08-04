@@ -191,4 +191,54 @@ cite {
     font-style: normal;
 }
 
+/* Call to Action Section */
+.cta-section {
+    padding: 6rem 0;
+    background-color: white;
+}
+
+.cta-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.cta-card {
+    background-color: #3b82f6;
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cta-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.cta-content p {
+    font-size: 1rem;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #3b82f6;
+}
 
