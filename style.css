@@ -47,21 +47,25 @@ nav {
     color: #3b82f6;
 }
 
-css
 /* Hero Section */
 .hero {
     background-color: #1f2937;
     color: white;
-    padding: 6rem 2rem;
-    display: flex;
+    padding: 6rem 0;
+}
+
+.hero-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
     align-items: center;
     gap: 3rem;
 }
 
 .hero-content {
     flex: 1;
+    min-width: 0; /* Prevents flex item from overflowing */
 }
 
 .hero h1 {
@@ -95,6 +99,7 @@ css
 
 .hero-image {
     flex: 1;
+    min-width: 0; /* Prevents flex item from overflowing */
 }
 
 .image-placeholder {
@@ -108,7 +113,54 @@ css
     border-radius: 0.5rem;
 }
 
+/* Information Section */
+.info-section {
+    padding: 6rem 0;
+    background-color: white;
+}
 
+.info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 3rem;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    max-width: 180px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.card-image {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3b82f6;
+    border-radius: 1rem;
+    margin: 0 auto 1rem;
+    background-color: #f9fafb;
+}
+
+.card p {
+    color: #6b7280;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
 
 
 
